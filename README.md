@@ -22,19 +22,19 @@ fraud	0 (No Fraud) / 1 (Fraud)
 
 # Analysis Steps in Excel
 i Data Cleaning:
-
 Removed duplicates and ensured data integrity.
+
 ii Fraud Identification:
-
 Applied filters and conditional formatting to highlight fraudulent transactions.
-Pivot Tables:
 
-iii Created pivot tables to summarize data by step, customer, merchant, and fraud status.
-Visualization:
 
-Developed charts to visualize transaction trends, fraud distribution, and high-risk categories.
-iv Insights:
+iii Pivot Tables:
+Created pivot tables to summarize data by step, customer, merchant, and fraud status.
 
+
+iv Visualization: Developed charts to visualize transaction trends, fraud distribution, and high-risk categories.
+
+ v Insights:
 Identified patterns such as frequent fraudulent transactions linked to specific merchants and age groups.
 
 # Insights
