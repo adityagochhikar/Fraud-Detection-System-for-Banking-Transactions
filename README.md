@@ -11,13 +11,20 @@ Fraudulent Transactions: 7,200
 
 # 3 Dataset Columns
 Column	Description
+
 step	Simulation step (time frame)
 customer	Unique customer ID
+
 age	Age group of the customer
+
 gender	Customer's gender
+
 merchant	Merchant where transaction occurs
+
 category	Transaction category
+
 amount	Transaction amount
+
 fraud	0 (No Fraud) / 1 (Fraud)
 
 # Analysis Steps in Excel
@@ -40,21 +47,20 @@ Identified patterns such as frequent fraudulent transactions linked to specific 
 # Insights
 
 i Fraud Distribution Overview:
-
 Fraudulent Transactions: Account for just 1% of the total transactions, indicating a heavily imbalanced dataset.
 Non-Fraudulent Transactions: 587,443
 Fraudulent Transactions: 7,200
-ii Age Group Analysis:
 
+ii Age Group Analysis:
 The highest counts in category 0 are for age groups 2 (184,966) and 3 (145,376).
 There is a noticeable decline for age groups 4 and 5.
 Fraudulent activities are concentrated in younger age groups (0, 1, 2).
-iii Gender and Category Analysis:
 
+iii Gender and Category Analysis:
 In category 0, the "M" (265,950) and "F" (319,807) categories dominate.
 Fraudulent transactions are significantly higher for the "F" (4,758) and "M" (2,435) categories compared to "E" (7) and "U" (0).
-iv Merchant Insights:
 
+iv Merchant Insights:
 43% of fraudulent transactions occur with merchants M480139044 and M980657600.
 Category Insights:
 
@@ -62,23 +68,25 @@ v Top fraud categories include:
 es_health: Total fraud amount of €664,804.39
 es_sportsandtoys: Total fraud amount of €505,311.62
 Interestingly, no fraudulent transactions occurred in the "es_transportation" category.
-vi Transaction Amount Patterns:
 
+vi Transaction Amount Patterns:
 Non-Fraudulent Transactions:
 Average amounts are stable (31.4 - 32.1) across all step ranges.
 These transactions remain low and consistent.
+
 vii Fraudulent Transactions:
 Average amounts are 10x to 18x higher than non-fraudulent transactions.
+
 viii Peaks observed in specific step ranges:
 25-49 steps: €588.5
 100-124 steps: €615.6
 Fraudulent amounts decline in later steps (e.g., 175-199 steps: €414.4).
-xi Fraud Patterns by Steps:
 
+xi Fraud Patterns by Steps:
 Early Steps (0-74): High fraudulent activity, especially in steps 50-74.
 Late Steps (175-199): Decline in fraud, indicating potential detection mechanisms.
-x Key Takeaways:
 
+x Key Takeaways:
 Fraud detection should focus on:
 Step ranges: 25-49, 50-74, and 100-124 where fraudulent activity peaks.
 Younger age groups (0, 1, 2).
