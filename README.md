@@ -47,15 +47,19 @@ fraud – 0 (No Fraud) / 1 (Fraud)
 
 # 📊 Key Insights
 
+
 📍 Fraud Distribution
 
 🔹 Fraudulent transactions account for just 1% of total transactions, highlighting an imbalanced dataset.
 
+
 📍 Age Group Analysis
+
 
 ✅ Fraud is heavily concentrated in younger age groups (0, 1, 2).
 
 ✅ Age groups 2 (184,966) & 3 (145,376) dominate normal transactions.
+
 
 📍 Gender & Category Trends
 
@@ -65,9 +69,11 @@ fraud – 0 (No Fraud) / 1 (Fraud)
 
 ✅ No fraud detected in the "es_transportation" category.
 
+
 📍 Merchant Insights
 
 ✅ 43% of fraud cases are linked to M480139044 & M980657600.
+
 
 📍 Transaction Amount Patterns
 
